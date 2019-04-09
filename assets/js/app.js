@@ -1,3 +1,3 @@
-var log = require('./log.js')
+let log = require('./log.js')
 
 log('salut')
