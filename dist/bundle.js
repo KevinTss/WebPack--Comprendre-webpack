@@ -67,17 +67,17 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-let log = __webpack_require__(1)
+var log = __webpack_require__(1);
 
-log('salut')
+log('salut');
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = function(value) {
-  console.log(value)
-}
+module.exports = function (value) {
+  console.log(value);
+};
 
 /***/ })
 /******/ ]);
