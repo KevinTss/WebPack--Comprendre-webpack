@@ -1,6 +1,6 @@
 # Webpack--Comprendre-webpack
   
-[https://www.grafikart.fr/formations/webpack](Link to the tutorial)
+[Here](https://www.grafikart.fr/formations/webpack) is the link to the video tutorial
   
 ## Part 1
   
@@ -24,6 +24,6 @@ Here use the configuration file of webpack and avoid using command line to compl
   
 - Add a `webpack.config.js` file exporting the config js object
   
-You just create an object exporting a js object, in it you can configure lot of thing see the doc [https://webpack.js.org/configuration](here)
+You just create an object exporting a js object, in it you can configure lot of thing see the doc [here](https://webpack.js.org/configuration)
 
 - You need to use `path` from NodeJS to resolve path's and make them absolute (commit: [31ca845](https://github.com/KevinTss/WebPack--Comprendre-webpack/commit/31ca84593681f69b23156a425bfb4dc3d869e602))
