@@ -42,7 +42,12 @@ So is not compatible with old browser
 
 - Create in `webpack.config.js` file, a module to convert code with babel
 
-- Add also a `.babelrc` file ton externalize the config of babel (make them out of webpack config)
+- Add also a `.babelrc` file ton externalize the config of babel (make them out of webpack config) [20da5cd](https://github.com/KevinTss/WebPack--Comprendre-webpack/commit/20da5cdfa418463c50881e10e82444e330ea4ea8)
 
 At this point, just run the buil command and see the diff in source code trought the browser
 
+- Install Jquery with npm : `npm install jquery`
+
+- Import it and use it [1ea02cd](https://github.com/KevinTss/WebPack--Comprendre-webpack/commit/1ea02cd50e20503290e3c94d10bc03b37a8e59f7)
+
+Here we can see that when you compile, webpack warn you that is a big file that you import (~275Kb). It could be great to minify it
