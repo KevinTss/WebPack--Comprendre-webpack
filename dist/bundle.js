@@ -67,10 +67,10 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var log = __webpack_require__(1);
+let log = __webpack_require__(1);
 
 log('salut');
-var _ref = [1, 2, 3, 4, 5],
+let _ref = [1, 2, 3, 4, 5],
     a = _ref[0],
     b = _ref[3];
 log(a);
