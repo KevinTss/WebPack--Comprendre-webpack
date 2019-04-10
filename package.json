@@ -23,5 +23,7 @@
     "babel-loader": "^8.0.5",
     "webpack": "^3.4.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
