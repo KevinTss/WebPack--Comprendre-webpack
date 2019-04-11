@@ -1,4 +1,5 @@
 const path = require('path')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
 
@@ -17,6 +18,8 @@ module.exports = {
         use: ['babel-loader']
       }
     ]
-  }
+  },
+
+  plugins: [new UglifyJsPlugin()]
   
 }
